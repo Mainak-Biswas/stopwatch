@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stopwatch</title>
+
+        <link rel="stylesheet" href="style.css" />
+        <!-- Link to the CSS File -->
+        <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+        <!-- Link to icon  -->
+    </head>
+    <body>
+        <div id="stopwatch">
+            <h1 id="heading">Stopwatch</h1>
+            <!-- Container of the stopwatch -->
+            <div id="container" class="container">
+                <!-- Element to display timer -->
+                <div id="timer" class="timer"><span id="hr">00</span>:<span id="mn">00</span>:<span id="sc">00</span>:<span id="ms">00</span></div>
+                <div id="timer_label" class="timer_label"><span>Hrs</span> <span>Min</span> <span>Sec</span> <span> Ms</span></div>
+                <!-- Buttons to Start/Pause and Stop stopwatch -->
+                <button id="stopwatch_start_pause"><i class="fa fa-play"></i></button>
+                <button id="stopwatch_stop"><i class="fa fa-stop"></i></button>
+            </div>
+            <!-- List to display stopwatch data -->
+            <div id="stopwatch_list" class="stopwatch_list"></div>
+        </div>
+    </body>
+    <!-- Link to script file -->
+    <script src="script.js"></script>
+</html>
